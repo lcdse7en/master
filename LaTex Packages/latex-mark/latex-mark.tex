@@ -1,0 +1,82 @@
+
+\documentclass[a4paper]{article}
+\usepackage{xeCJK}
+\setCJKmainfont{AR PL UMing CN}
+\usepackage[margin=0.5cm]{geometry}
+\usepackage{amssymb,amsmath,mathrsfs,amsfonts}
+\usepackage{graphicx}
+\usepackage[colorlinks=true,linkcolor=blue,filecolor=magenta,urlcolor=cyan]{hyperref}
+\usepackage{array,tabularx}
+\usepackage{tcolorbox}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+
+\tcbset{
+    title filled=false,
+    coltitle=black!75!black,
+    colbacktitle=red!50!white,
+    fonttitle=\sffamily\bfseries\large,
+    rounded corners,
+    arc=2mm,
+    colback=yellow!10!white,
+    colframe=black,
+}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\begin{document}
+\begin{tcolorbox}[tabularx*={\arrayrulewidth0.5mm}{Y|X||Y|X},title=LaTex 希腊字母]
+    $\alpha$ & $\backslash$alpha & $\varSigma$&$\backslash$varSigma \\\hline
+    $\beta$ & $\backslash$beta & $\varPi$ &$\backslash$ varPi\\\hline
+    $\gamma$ & $\backslash$gamma & $\varGamma$ &$\backslash$varGamma\\\hline
+    $\delta$ & $\backslash$delta &  &\\\hline
+    $\epsilon$ & $\backslash$epsilon &  &\\\hline
+    $\eta$ & $\backslash$eta &  &\\\hline
+    $\Delta$ & $\backslash$Delta &  &\\\hline
+    $\theta$ & $\backslash$theta &  &\\\hline
+    $\pi$ & $\backslash$pi &  &\\\hline
+    $\omega$ & $\backslash$omega &  &\\\hline
+    $\psi$ & $\backslash$psi &  &\\\hline
+\end{tcolorbox}
+
+
+\begin{tcolorbox}[tabularx*={\arrayrulewidth0.5mm}{Y|X||Y|X},title=LaTex 二元运算符]
+    $\pm$ & $\backslash$pm & $\div$&$\backslash$div \\\hline
+    $\times$ & $\backslash$times & $\setminus$ &$\backslash$setminus\\\hline
+    $\cup$ & $\backslash$cup & $\cap$ &$\backslash$cap\\\hline
+    $\star$ & $\backslash$star & $\ast$ & $\setminus$ast\\\hline
+    $\oplus$ & $\backslash$oplus & $\odot$ & $\setminus$odot\\\hline
+\end{tcolorbox}
+
+\begin{tcolorbox}[tabularx*={\arrayrulewidth0.5mm}{Y|X||Y|X},title=LaTex 箭头]
+    $\rightarrow$ & $\backslash$rightarrow & $\longrightarrow$&$\backslash$longrightarrow \\\hline
+    $\Rightarrow$ & $\backslash$Rightarrow & $\Longrightarrow$ &$\backslash$Longrightarrow\\\hline
+    $\Leftrightarrow$ & $\backslash$Leftrightarrow & $\Longleftrightarrow$ &$\backslash$Longleftrightarrow\\\hline
+    $\rightleftharpoons$ & $\backslash$rightleftharpoons & $\iff$ & $\setminus$iff\\\hline
+    $\dashrightarrow$ & $\backslash$dashrightarrow & $\Rrightarrow$ & $\backslash$Rrightarrow \\\hline
+    $\circlearrowleft$ & $\backslash$circlearrowleft & $\circlearrowright$ & $\backslash$circlearrowright \\\hline
+    $\looparrowleft$ & $\backslash$looparrowleft & $\looparrowright$ & $\backslash$looparrowright \\\hline
+    $\overrightarrow{AB}$ & $\backslash$overrightarrow\{AB\} & $\overleftrightarrow{AB}$ & $\backslash$overleftrightarrow\{AB\} \\\hline
+\end{tcolorbox}
+
+
+\begin{tcolorbox}[tabularx*={\arrayrulewidth0.5mm}{Y|X||Y|X},title=LaTex 二元关系符]
+   $\leqslant$  & $\backslash$leqslant & $\geqslant$&$\backslash$geqslant \\\hline
+   $\thickapprox$  & $\backslash$thickapprox & $\triangleq$&$\backslash$triangleq \\\hline
+\end{tcolorbox}
+
+\begin{tcolorbox}[tabularx*={\arrayrulewidth0.5mm}{Y|X||Y|X},title=LaTex 微积分常用符号]
+   $\infty$  & $\backslash$infty & $\int$&$\backslash$int \\\hline
+    & & & \\\hline
+    & & & \\\hline
+\end{tcolorbox}
+
+\begin{tcolorbox}[tabularx*={\arrayrulewidth0.5mm}{Y|X||Y|X},title=LaTex 其他符号]
+    $\dots$ & $\backslash$dots & $\cdots$&$\backslash$cdots \\\hline
+    $\vdots$ & $\backslash$vdots & $\ddots$ &$\backslash$ddots\\\hline
+    $\surd$ & $\backslash$surd & $\heartsuit$ &$\backslash$heartsuit\\\hline
+    $\clubsuit$ & $\backslash$clubsuit & $\spadesuit$ & $\setminus$spadesuit\\\hline
+    $\prime$ & $\backslash$prime &  & \\\hline
+\end{tcolorbox}
+\end{document}
+
