@@ -1,8 +1,11 @@
-#### 1.创建crawlspider爬虫
+#### 1.creat crawlspider
 ```shell
 scrapy startproject demo
 cd demo
-scrapy genspider -t crawl demo_spider 'www.baidu.com'
+scrapy genspider -t crawl demo_spider www.baidu.com
+
+%% execute
+scrapy crawl demo_spider
 ```
 
 #### 2.settings.py
