@@ -35,4 +35,6 @@ git add .
 git status
 git commit -m 'first
 git push
+
+git pull
 ```
